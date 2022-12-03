@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		52E28E292932B520002E5326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E282932B520002E5326 /* AppDelegate.swift */; };
 		52E28E2B2932B520002E5326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E2A2932B520002E5326 /* SceneDelegate.swift */; };
-		52E28E2D2932B520002E5326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E2C2932B520002E5326 /* ViewController.swift */; };
+		52E28E2D2932B520002E5326 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E2C2932B520002E5326 /* NoteViewController.swift */; };
 		52E28E302932B520002E5326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E2E2932B520002E5326 /* Main.storyboard */; };
 		52E28E322932B521002E5326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E312932B521002E5326 /* Assets.xcassets */; };
 		52E28E352932B521002E5326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E332932B521002E5326 /* LaunchScreen.storyboard */; };
 		52E28E402932B521002E5326 /* takeNoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E3F2932B521002E5326 /* takeNoteAppTests.swift */; };
 		52E28E4A2932B521002E5326 /* takeNoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E492932B521002E5326 /* takeNoteAppUITests.swift */; };
 		52E28E4C2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */; };
+		52E28E5B2932B637002E5326 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5A2932B637002E5326 /* NotesTableViewController.swift */; };
+		52E28E5D2932B681002E5326 /* NoteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5C2932B681002E5326 /* NoteViewCell.swift */; };
+		52E28E602932C10E002E5326 /* TakeNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */; };
+		52E28E622932C1E1002E5326 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E612932C1E1002E5326 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		52E28E252932B520002E5326 /* takeNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E28E282932B520002E5326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E28E2A2932B520002E5326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52E28E2C2932B520002E5326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E28E2C2932B520002E5326 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		52E28E2F2932B520002E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E28E312932B521002E5326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E28E342932B521002E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		52E28E452932B521002E5326 /* takeNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E28E492932B521002E5326 /* takeNoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeNoteAppUITests.swift; sourceTree = "<group>"; };
 		52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeNoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E28E5A2932B637002E5326 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		52E28E5C2932B681002E5326 /* NoteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewCell.swift; sourceTree = "<group>"; };
+		52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeNote.xcdatamodel; sourceTree = "<group>"; };
+		52E28E612932C1E1002E5326 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		52E28E272932B520002E5326 /* takeNoteApp */ = {
 			isa = PBXGroup;
 			children = (
-				52E28E282932B520002E5326 /* AppDelegate.swift */,
+				52E28E592932B551002E5326 /* Controller */,
+				52E28E582932B541002E5326 /* Model */,
+				52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */,
 				52E28E2A2932B520002E5326 /* SceneDelegate.swift */,
-				52E28E2C2932B520002E5326 /* ViewController.swift */,
+				52E28E282932B520002E5326 /* AppDelegate.swift */,
 				52E28E2E2932B520002E5326 /* Main.storyboard */,
 				52E28E312932B521002E5326 /* Assets.xcassets */,
 				52E28E332932B521002E5326 /* LaunchScreen.storyboard */,
@@ -125,6 +135,24 @@
 				52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */,
 			);
 			path = takeNoteAppUITests;
+			sourceTree = "<group>";
+		};
+		52E28E582932B541002E5326 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E612932C1E1002E5326 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52E28E592932B551002E5326 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E2C2932B520002E5326 /* NoteViewController.swift */,
+				52E28E5A2932B637002E5326 /* NotesTableViewController.swift */,
+				52E28E5C2932B681002E5326 /* NoteViewCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E28E2D2932B520002E5326 /* ViewController.swift in Sources */,
+				52E28E2D2932B520002E5326 /* NoteViewController.swift in Sources */,
+				52E28E5B2932B637002E5326 /* NotesTableViewController.swift in Sources */,
+				52E28E622932C1E1002E5326 /* Note.swift in Sources */,
+				52E28E5D2932B681002E5326 /* NoteViewCell.swift in Sources */,
 				52E28E292932B520002E5326 /* AppDelegate.swift in Sources */,
+				52E28E602932C10E002E5326 /* TakeNote.xcdatamodeld in Sources */,
 				52E28E2B2932B520002E5326 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +656,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */,
+			);
+			currentVersion = 52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */;
+			path = TakeNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52E28E1D2932B51F002E5326 /* Project object */;
 }
