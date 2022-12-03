@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E28E292932B520002E5326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E282932B520002E5326 /* AppDelegate.swift */; };
+		52E28E2B2932B520002E5326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E2A2932B520002E5326 /* SceneDelegate.swift */; };
+		52E28E2D2932B520002E5326 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E2C2932B520002E5326 /* NoteViewController.swift */; };
+		52E28E302932B520002E5326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E2E2932B520002E5326 /* Main.storyboard */; };
+		52E28E322932B521002E5326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E312932B521002E5326 /* Assets.xcassets */; };
+		52E28E352932B521002E5326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E28E332932B521002E5326 /* LaunchScreen.storyboard */; };
+		52E28E402932B521002E5326 /* takeNoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E3F2932B521002E5326 /* takeNoteAppTests.swift */; };
+		52E28E4A2932B521002E5326 /* takeNoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E492932B521002E5326 /* takeNoteAppUITests.swift */; };
+		52E28E4C2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */; };
+		52E28E5B2932B637002E5326 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5A2932B637002E5326 /* NotesTableViewController.swift */; };
+		52E28E5D2932B681002E5326 /* NoteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5C2932B681002E5326 /* NoteViewCell.swift */; };
+		52E28E602932C10E002E5326 /* TakeNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */; };
+		52E28E622932C1E1002E5326 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E28E612932C1E1002E5326 /* Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E28E3C2932B521002E5326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E28E1D2932B51F002E5326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E28E242932B51F002E5326;
+			remoteInfo = takeNoteApp;
+		};
+		52E28E462932B521002E5326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E28E1D2932B51F002E5326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E28E242932B51F002E5326;
+			remoteInfo = takeNoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E28E252932B520002E5326 /* takeNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E28E282932B520002E5326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E28E2A2932B520002E5326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52E28E2C2932B520002E5326 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		52E28E2F2932B520002E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E28E312932B521002E5326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E28E342932B521002E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E28E362932B521002E5326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E28E3B2932B521002E5326 /* takeNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E28E3F2932B521002E5326 /* takeNoteAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeNoteAppTests.swift; sourceTree = "<group>"; };
+		52E28E452932B521002E5326 /* takeNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E28E492932B521002E5326 /* takeNoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeNoteAppUITests.swift; sourceTree = "<group>"; };
+		52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeNoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E28E5A2932B637002E5326 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		52E28E5C2932B681002E5326 /* NoteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewCell.swift; sourceTree = "<group>"; };
+		52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeNote.xcdatamodel; sourceTree = "<group>"; };
+		52E28E612932C1E1002E5326 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E28E222932B51F002E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E382932B521002E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E422932B521002E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E28E1C2932B51F002E5326 = {
+			isa = PBXGroup;
+			children = (
+				52E28E272932B520002E5326 /* takeNoteApp */,
+				52E28E3E2932B521002E5326 /* takeNoteAppTests */,
+				52E28E482932B521002E5326 /* takeNoteAppUITests */,
+				52E28E262932B520002E5326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E28E262932B520002E5326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E252932B520002E5326 /* takeNoteApp.app */,
+				52E28E3B2932B521002E5326 /* takeNoteAppTests.xctest */,
+				52E28E452932B521002E5326 /* takeNoteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E28E272932B520002E5326 /* takeNoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E592932B551002E5326 /* Controller */,
+				52E28E582932B541002E5326 /* Model */,
+				52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */,
+				52E28E2A2932B520002E5326 /* SceneDelegate.swift */,
+				52E28E282932B520002E5326 /* AppDelegate.swift */,
+				52E28E2E2932B520002E5326 /* Main.storyboard */,
+				52E28E312932B521002E5326 /* Assets.xcassets */,
+				52E28E332932B521002E5326 /* LaunchScreen.storyboard */,
+				52E28E362932B521002E5326 /* Info.plist */,
+			);
+			path = takeNoteApp;
+			sourceTree = "<group>";
+		};
+		52E28E3E2932B521002E5326 /* takeNoteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E3F2932B521002E5326 /* takeNoteAppTests.swift */,
+			);
+			path = takeNoteAppTests;
+			sourceTree = "<group>";
+		};
+		52E28E482932B521002E5326 /* takeNoteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E492932B521002E5326 /* takeNoteAppUITests.swift */,
+				52E28E4B2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift */,
+			);
+			path = takeNoteAppUITests;
+			sourceTree = "<group>";
+		};
+		52E28E582932B541002E5326 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E612932C1E1002E5326 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52E28E592932B551002E5326 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52E28E2C2932B520002E5326 /* NoteViewController.swift */,
+				52E28E5A2932B637002E5326 /* NotesTableViewController.swift */,
+				52E28E5C2932B681002E5326 /* NoteViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E28E242932B51F002E5326 /* takeNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E28E4F2932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteApp" */;
+			buildPhases = (
+				52E28E212932B51F002E5326 /* Sources */,
+				52E28E222932B51F002E5326 /* Frameworks */,
+				52E28E232932B51F002E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takeNoteApp;
+			productName = takeNoteApp;
+			productReference = 52E28E252932B520002E5326 /* takeNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E28E3A2932B521002E5326 /* takeNoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E28E522932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteAppTests" */;
+			buildPhases = (
+				52E28E372932B521002E5326 /* Sources */,
+				52E28E382932B521002E5326 /* Frameworks */,
+				52E28E392932B521002E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E28E3D2932B521002E5326 /* PBXTargetDependency */,
+			);
+			name = takeNoteAppTests;
+			productName = takeNoteAppTests;
+			productReference = 52E28E3B2932B521002E5326 /* takeNoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52E28E442932B521002E5326 /* takeNoteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E28E552932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteAppUITests" */;
+			buildPhases = (
+				52E28E412932B521002E5326 /* Sources */,
+				52E28E422932B521002E5326 /* Frameworks */,
+				52E28E432932B521002E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E28E472932B521002E5326 /* PBXTargetDependency */,
+			);
+			name = takeNoteAppUITests;
+			productName = takeNoteAppUITests;
+			productReference = 52E28E452932B521002E5326 /* takeNoteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E28E1D2932B51F002E5326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					52E28E242932B51F002E5326 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					52E28E3A2932B521002E5326 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 52E28E242932B51F002E5326;
+					};
+					52E28E442932B521002E5326 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 52E28E242932B51F002E5326;
+					};
+				};
+			};
+			buildConfigurationList = 52E28E202932B51F002E5326 /* Build configuration list for PBXProject "takeNoteApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E28E1C2932B51F002E5326;
+			productRefGroup = 52E28E262932B520002E5326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E28E242932B51F002E5326 /* takeNoteApp */,
+				52E28E3A2932B521002E5326 /* takeNoteAppTests */,
+				52E28E442932B521002E5326 /* takeNoteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E28E232932B51F002E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E28E352932B521002E5326 /* LaunchScreen.storyboard in Resources */,
+				52E28E322932B521002E5326 /* Assets.xcassets in Resources */,
+				52E28E302932B520002E5326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E392932B521002E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E432932B521002E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E28E212932B51F002E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E28E2D2932B520002E5326 /* NoteViewController.swift in Sources */,
+				52E28E5B2932B637002E5326 /* NotesTableViewController.swift in Sources */,
+				52E28E622932C1E1002E5326 /* Note.swift in Sources */,
+				52E28E5D2932B681002E5326 /* NoteViewCell.swift in Sources */,
+				52E28E292932B520002E5326 /* AppDelegate.swift in Sources */,
+				52E28E602932C10E002E5326 /* TakeNote.xcdatamodeld in Sources */,
+				52E28E2B2932B520002E5326 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E372932B521002E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E28E402932B521002E5326 /* takeNoteAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E28E412932B521002E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E28E4A2932B521002E5326 /* takeNoteAppUITests.swift in Sources */,
+				52E28E4C2932B521002E5326 /* takeNoteAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E28E3D2932B521002E5326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E28E242932B51F002E5326 /* takeNoteApp */;
+			targetProxy = 52E28E3C2932B521002E5326 /* PBXContainerItemProxy */;
+		};
+		52E28E472932B521002E5326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E28E242932B51F002E5326 /* takeNoteApp */;
+			targetProxy = 52E28E462932B521002E5326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52E28E2E2932B520002E5326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E28E2F2932B520002E5326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E28E332932B521002E5326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E28E342932B521002E5326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E28E4D2932B521002E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E28E4E2932B521002E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E28E502932B521002E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takeNoteApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E28E512932B521002E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takeNoteApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52E28E532932B521002E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeNoteApp.app/takeNoteApp";
+			};
+			name = Debug;
+		};
+		52E28E542932B521002E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeNoteApp.app/takeNoteApp";
+			};
+			name = Release;
+		};
+		52E28E562932B521002E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = takeNoteApp;
+			};
+			name = Debug;
+		};
+		52E28E572932B521002E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAVT84VLPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.takeNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = takeNoteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E28E202932B51F002E5326 /* Build configuration list for PBXProject "takeNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E28E4D2932B521002E5326 /* Debug */,
+				52E28E4E2932B521002E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E28E4F2932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E28E502932B521002E5326 /* Debug */,
+				52E28E512932B521002E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E28E522932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E28E532932B521002E5326 /* Debug */,
+				52E28E542932B521002E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E28E552932B521002E5326 /* Build configuration list for PBXNativeTarget "takeNoteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E28E562932B521002E5326 /* Debug */,
+				52E28E572932B521002E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52E28E5E2932C10E002E5326 /* TakeNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */,
+			);
+			currentVersion = 52E28E5F2932C10E002E5326 /* TakeNote.xcdatamodel */;
+			path = TakeNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52E28E1D2932B51F002E5326 /* Project object */;
+}
